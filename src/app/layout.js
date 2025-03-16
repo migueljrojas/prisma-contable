@@ -1,14 +1,18 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Montserrat, Roboto } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
+import data from "../data/data.json";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
   subsets: ["latin"],
+  fontWeight: [300, 500, 600, 700],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const roboto = Roboto({
+  variable: "--font-roboto",
   subsets: ["latin"],
+  fontWeight: [300, 500, 600, 700],
 });
 
 export const metadata = {
@@ -19,10 +23,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${montserrat.variable} ${roboto.variable} antialiased`}>
+        <Navbar contact={data.contact} />
         {children}
+        {/* Footer */}
+        <footer className="bg-gray-800 text-white py-4 text-center">
+          <p>
+            &copy; {new Date().getFullYear()} Prisma Contable. Todos los derechos reservados.
+          </p>
+        </footer>
       </body>
     </html>
   );

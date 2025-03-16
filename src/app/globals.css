@@ -3,24 +3,60 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-roboto);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@theme {
+  --color-primary-100: #e6f0ff; /* Muy claro */
+  --color-primary-200: #c0dfff;
+  --color-primary-300: #9fbfff;
+  --color-primary-400: #7faeff;
+  --color-primary-500: #005f9e; /* Default */
+  --color-primary-600: #00568c;
+  --color-primary-700: #004e7a;
+  --color-primary-800: #004668;
+  --color-primary-900: #003e56;
+  --color-secondary-100: #ffe6eb; /* Muy claro */
+  --color-secondary-200: #ffcdd7;
+  --color-secondary-300: #ffb3c3;
+  --color-secondary-400: #ff99af;
+  --color-secondary-500: #ee3656; /* Default */
+  --color-secondary-600: #d52f4f;
+  --color-secondary-700: #bb2848;
+  --color-secondary-800: #a12041;
+  --color-secondary-900: #881a3a;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-roboto);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-montserrat);
+}
+
+a, button {
+  cursor: pointer;
+}
+
+/* Clases utilitarias para usar las fuentes según se requiera */
+.font-montserrat {
+  font-family: var(--font-montserrat);
+}
+
+.font-roboto {
+  font-family: var(--font-roboto);
 }
