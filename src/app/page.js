@@ -61,7 +61,7 @@ export default function Home() {
           </div>
           <div className='flex flex-col md:flex-row px-4 justify-center md:gap-12'>
             <div className='rounded-full bg-white md:w-1/3 aspect-square max-w-[220px] md:max-w-[280px] text-center space-y-4 flex flex-col items-center justify-center shadow-2xl'>
-              <span className='text-6xl font-bold text-secondary-500'>+17</span>
+              <span className='text-6xl font-bold text-secondary-500'>+15</span>
               <p className='text-xs text-primary-500 font-semibold'>Años de Experiencia</p>
             </div>
             <div className='rounded-full bg-white md:w-1/3 aspect-square max-w-[220px] md:max-w-[280px] text-center space-y-4 flex flex-col items-center justify-center shadow-2xl self-end p-8'>
