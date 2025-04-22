@@ -1,70 +1,76 @@
 {
   "services": [
     {
-      "id":1,
-      "title": "Libros Contables Digitales",
-      "shortDesc":"$100",
-      "detailedDesc":""
+      "id": 1,
+      "title": "Libros contables digitales",
+      "shortDesc": "$100",
+      "detailedDesc": ""
     },
     {
-      "id":2,
-      "title": "Certificación de Ingresos",
-      "shortDesc":"$120",
-      "detailedDesc":""
+      "id": 2,
+      "title": "Certificación de ingresos",
+      "shortDesc": "$120",
+      "detailedDesc": ""
     },
     {
-      "id":3,
+      "id": 3,
       "title": "Declaraciones de ISLR",
-      "shortDesc":"$200",
-      "detailedDesc":""
+      "shortDesc": "$200",
+      "detailedDesc": ""
     },
     {
-      "id":4,
-      "title": "Estados Financieros",
-      "shortDesc":"$80",
-      "detailedDesc":""
+      "id": 4,
+      "title": "Estados financieros",
+      "shortDesc": "$80",
+      "detailedDesc": ""
     },
     {
-      "id":5,
-      "title": "Documento Constitutivo",
-      "shortDesc":"$300",
-      "detailedDesc":""
+      "id": 5,
+      "title": "Documento constitutivo",
+      "shortDesc": "$300",
+      "detailedDesc": ""
     },
     {
-      "id":6,
+      "id": 6,
       "title": "Inventarios",
-      "shortDesc":"$100",
-      "detailedDesc":""
+      "shortDesc": "$100",
+      "detailedDesc": ""
     },
     {
-      "id":7,
-      "title": "Legajo para Garantías de Fiel cumplimiento",
-      "shortDesc":"$250",
-      "detailedDesc":""
+      "id": 7,
+      "title": "Legajo para garantías de fiel cumplimiento",
+      "shortDesc": "$250",
+      "detailedDesc": ""
     },
     {
-      "id":8,
-      "title": "Flujos de Cajas",
-      "shortDesc":"$50",
-      "detailedDesc":""
+      "id": 8,
+      "title": "Flujos de cajas",
+      "shortDesc": "$50",
+      "detailedDesc": ""
     },
     {
-      "id":9,
-      "title": "Plan de Cuentas",
-      "shortDesc":"$120",
-      "detailedDesc":""
+      "id": 9,
+      "title": "Plan de cuentas",
+      "shortDesc": "$120",
+      "detailedDesc": ""
     },
     {
-      "id":10,
-      "title": "Estructuras de Costos",
-      "shortDesc":"$250",
-      "detailedDesc":""
+      "id": 10,
+      "title": "Estructuras de costos",
+      "shortDesc": "$250",
+      "detailedDesc": ""
     },
     {
-      "id":11,
-      "title": "Balances Generales",
-      "shortDesc":"$80",
-      "detailedDesc":""
+      "id": 11,
+      "title": "Balances generales",
+      "shortDesc": "$80",
+      "detailedDesc": ""
+    },
+    {
+      "id": 12,
+      "title": "Auditorías",
+      "shortDesc": "A cotizar",
+      "detailedDesc": ""
     }
   ],
   "planes-juridico": [
@@ -114,28 +120,33 @@
   "planes-contable": [
     {
       "id": 1,
-      "name": "Plan Inicia",
+      "name": "Plan Inicial",
       "features": [
         "Declaración de IVA",
-        "Libros: Compra, Venta, Diario y Mayor",
-        "Estado de Resultados"
+        "Libro de compra",
+        "Libro de venta",
+        "Retenciones de ISLR",
+        "D.P.P",
+        "Asesoría preventiva y acompañamiento en fiscalizaciones (Virtual o Presencial según necesidad)"
       ],
       "pricing": {
-        "Compañías Anónimas": "$60"
+        "Compañías Anónimas": "$50"
       }
     },
     {
       "id": 2,
       "name": "Plan Estándar",
       "features": [
-        "Todo lo del Plan Inicia, más:",
+        "Todo lo del Plan Inicial, más:",
         "Declaración de ISLR",
-        "Registro de Retenciones y Pagos de Impuestos",
-        "Solvencias Parafiscales"
+        "Libro diario y libro Mayor",
+        "Estado de Resultado",
+        "Registro de retenciones",
+        "Declaración, planilla de pagos y solvencias parafiscales (Ince, IVSS, Banavih, Minpptras)"
       ],
       "pricing": {
-        "Compañías Anónimas": "$160",
-        "Contribuyentes Especiales": "$240"
+        "Compañías Anónimas": "$99",
+        "Contribuyentes Especiales": "$199"
       }
     },
     {
@@ -143,14 +154,15 @@
       "name": "Plan Empresarial",
       "features": [
         "Todo lo del Plan Estándar, más:",
-        "Libros adicionales",
-        "Estados Financieros",
-        "Registro de Empleados",
-        "Nómina"
+        "Libro de Inventario",
+        "Estado de situación Financiera",
+        "Conciliación bancaria",
+        "Cálculo de nómina",
+        "Cálculo de liquidaciones"
       ],
       "pricing": {
-        "Compañías Anónimas": "$260",
-        "Contribuyentes Especiales": "$390"
+        "Compañías Anónimas": "$199",
+        "Contribuyentes Especiales": "$399"
       }
     }
   ],
@@ -164,27 +176,27 @@
     {
       "name": "Vanessa Sosa",
       "role": "CEO - Contadora Lead",
-      "desc": "Mark: Líder visionaria, comprometida con la excelencia e innovación en contabilidad."
+      "desc": "Líder visionaria, comprometida con la excelencia e innovación en contabilidad."
     },
     {
       "name": "Gabriela Parili",
       "role": "Abogado Mercantil",
-      "desc": "Mark: Experta en estrategias jurídicas que protegen y potencian tu negocio."
+      "desc": "Experta en estrategias jurídicas que protegen y potencian tu negocio."
     },
     {
       "name": "Victor Sosa",
       "role": "Administrador",
-      "desc": "Juan Contador: Fundamental para la eficiencia operativa y el buen funcionamiento de la firma."
+      "desc": "Fundamental para la eficiencia operativa y el buen funcionamiento de la firma."
     },
     {
       "name": "Karly Gomez",
       "role": "Contadora",
-      "desc": "Juan Contador: Profesional meticulosa, garantizando precisión en cada análisis financiero."
+      "desc": "Profesional meticulosa, garantizando precisión en cada análisis financiero."
     },
     {
       "name": "Miguel Rojas",
       "role": "Asesor Digital",
-      "desc": "Mark: Innovador en soluciones digitales, conectando la contabilidad con la tecnología."
+      "desc": "Innovador en soluciones digitales, conectando la contabilidad con la tecnología."
     }
   ]
 }
